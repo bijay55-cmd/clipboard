@@ -1,0 +1,284 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*First Section*/
+.container{
+    margin-top: 10px;
+font-size: 15px;
+text-align: center;
+width: 100%;
+padding: 0 20px;
+
+}
+.header{
+    margin-top: 10px;
+}
+button{
+    border-radius: 20px;
+    border:none;
+    color: white;
+    padding: 10px 30px;
+    margin: 10px;
+
+}
+.btn1{
+    background-color: rgb(50, 168, 168);
+}
+.btn2{
+    background-color: rgb(87, 64, 141);
+}
+/*Second Section*/
+.container2{
+    margin-top: 40px;
+    font-size: 15px;
+text-align: center;
+width: 100%;
+padding:0 50px;
+}
+.container2 img{
+    max-width: 100%;
+    margin-top: 30px;
+}
+.trio{
+    padding: 20px;
+}
+/*Third Section*/
+.container3{
+    margin-top: 40px;
+    font-size: 15px;
+text-align: center;
+width: 100%;
+padding:0 50px;
+}
+.container3 img{
+    max-width: 100%;
+}
+/*Logo Section*/
+.container4{
+    margin-top: 20px;
+    font-size: 15px;
+text-align: center;
+width: 100%;
+padding:0 50px;
+}
+.advert{
+    margin: 0;
+    font-size: 10px;
+    padding: 20px 0;
+}
+.advert img{
+    padding: 20px 0;
+}
+.advert p{
+    font-size: 15px;
+}
+.companylogo{
+margin: 20% 0;
+}
+.companylogo img{
+    padding: 20px 0;
+}
+/*last Section*/
+.lastsection{
+    margin-top: 10px;
+    font-size: 15px;
+text-align: center;
+width: 100%;
+padding:0 50px;
+}
+/*Footer Section*/
+footer{
+    margin-bottom: -20px;
+    background-color: rgb(235, 233, 233);
+}
+.footerlogo{
+    margin-top: 20px;
+    max-width:20%;
+}
+.footerlink{
+    margin-top: 20px;
+    font-size: 15px;
+text-align: center;
+width: 100%;
+padding:0 50px;
+}
+ul{
+    text-decoration: none;
+    list-style:  none;
+    transform: translateX(-20px);
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    padding: 10px 0;
+}
+.sociallink a{
+    transform: translateX(-20px);
+    padding: 0 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: grey;
+}
+@media all and (min-width: 768px){
+    .companylogo img{
+        transform: translateY(-40px);
+        max-width: 30%;
+        padding: 20px 30px;
+    }
+    .lastsection{
+        transform: translateY(-50px);
+    }
+}
+@media all and (min-width: 1440px){
+    .container{
+        margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+    
+    }
+    .header{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .header p{
+        margin:auto;
+        width: 40%;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+    button{
+        border-radius: 20px;
+        border:none;
+        color: white;
+        padding: 10px 30px;
+        margin: 10px;
+    }
+    .btn1{
+        background-color: rgb(50, 168, 168);
+    }
+    .btn2{
+        background-color: rgb(87, 64, 141);
+    }
+    .container2{
+        margin-top: 40px;
+        font-size: 20px;
+    text-align: center;
+    width: 100%;
+    padding:0 50px;
+    }
+    .factsblock{
+        display: flex;
+    }
+    .container2 p{
+        width: 53%;
+        margin: auto;
+    }
+    .factsblock img{
+        margin-top: 40px;
+    }
+    .trio{
+        padding: 20px;
+    }
+    .trio p{
+        margin: auto;
+    }
+    .container3{
+        margin-top: 200px;
+        font-size: 15px;
+    text-align: center;
+    width: 100%;
+    padding:0 50px;
+    }
+    .container3 img{
+        max-width: 100%;
+    }
+    .paragraph2 {
+        font-size: 20px;
+    }
+    .container4{
+        margin-top: 20px;
+        font-size: 15px;
+    text-align: center;
+    width: 100%;
+    padding:0 50px;
+    }
+    .advert{
+        display: flex;
+        margin: auto;
+        width: 80%;
+        transform: translateX(-5%);
+        font-size: 15px;
+        padding: 50px 20px;
+    }
+    .advert img{
+        padding: 20px 0;
+    }
+    .advert p{
+        font-size: 20px;
+        padding: 0 30px;
+    }
+    .companylogo{
+        transform: translateY(-40px);
+        margin: 20% 0;
+        }
+    .lastsection{
+        margin-top: -150px;
+        font-size: 15px;
+    text-align: center;
+    width: 100%;
+    padding:0 50px;
+    }
+    footer{
+        margin-bottom: -20px;
+        background-color: rgb(235, 233, 233);
+    }
+    .footerlink{
+        margin-top: 20px;
+        font-size: 20px;
+    text-align: center;
+    width: 100%;
+    padding:0 50px;
+    display: flex;
+    }
+    .footerlogo{
+        margin-top: 20px;
+        max-width:50%;
+    }
+    ul {
+        display:flex;
+        gap: 20px;
+        text-decoration: none;
+        list-style:  none;
+        transform: translateX(50px);
+    }
+    ul a{
+        text-decoration: none;
+        color: black;
+    }
+    li{
+        padding: 10px 0;
+    }
+    .sociallink {
+        display: flex;
+        position: absolute;
+        right: 0;
+        transform: translateY(30px);
+    }
+    .sociallink a{
+        transform: translateX(-20px);
+        padding: 0 20px;
+        text-decoration: none;
+        color: grey;
+    }
+}
